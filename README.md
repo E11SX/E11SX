@@ -26,7 +26,7 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 | `flexpass.py` | Python   | Python version with extra features  |
 
 
-#### Usage
+## Usage
 
 ### Bash version
 
