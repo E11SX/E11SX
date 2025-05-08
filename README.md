@@ -33,4 +33,10 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 bash
 ./flexpass.sh -l 16 -n 5 -a -c -f passwords.txt
 
+### Python version 
+python3 flexpass.py -l 16 -n 5 -a -c -f passwords.txt
+
+
+
+
 
