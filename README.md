@@ -43,12 +43,13 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 
 # Requirements
 
-python
+#####  python
 python 3.6+
 
 ```
 pip install pyperclip
 ```
+#####  bash
 ```
 sudo apt install xclip
 ```
@@ -60,25 +61,22 @@ sudo pacman -S wl-clipboard
 
 # Installation
 
-Clone the GitHub repo:
+#####   Clone the GitHub repo:
 
 ```
-bash
 git clone https://github.com/E11SX/flexpass-PASSgnrtr.git
 cd flexpass.sh
 ```
 
-Make the hybrid launcher executable:-
+#####   Make the hybrid launcher executable:-
 
 ```
-bash
 chmod +x flexpass.sh
 ```
 
-Symlink to a global bin directory:
+#####   Symlink to a global bin directory:
 
 ```
-bash
 sudo ln -s "$(pwd)/flexpass.sh" /usr/local/bin/flexpass.sh
 ```
 
