@@ -1,5 +1,5 @@
 
-# flexpass
+# Flexpass
 
 
 flexpass is a lightweight, customizable password generator written in both Bash and Python, designed for Linux command-line users who want control, speed, and portability.
@@ -22,6 +22,7 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 
 # Files
 
+
 | File          | Language | Description                         |
 |---------------|----------|-------------------------------------|
 | `flexpass.sh` | Bash     | Fully portable Linux shell version  |
@@ -29,6 +30,8 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 
 
 # Options
+
+
 | Flag | Description                       |
 | ---- | --------------------------------- |
 | `-l` | Set password length (default: 12) |
@@ -43,13 +46,16 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 
 # Requirements
 
-#####  python
+
+#####  For python
 python 3.6+
+
+  pyperclp
 
 ```
 pip install pyperclip
 ```
-#####  bash
+#####  For bash
 ```
 sudo apt install xclip
 ```
@@ -68,7 +74,7 @@ git clone https://github.com/E11SX/flexpass-PASSgnrtr.git
 cd flexpass.sh
 ```
 
-#####   Make the hybrid launcher executable:-
+#####   Make the hybrid launcher executable:
 
 ```
 chmod +x flexpass.sh
