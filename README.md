@@ -60,7 +60,7 @@ sudo pacman -S wl-clipboard
 Clone the GitHub repo:
 
 bash
-git clone https://github.com/flexpass-PASSgnrtr/flexpass.git
+git clone https://github.com/flexpass-PASSgnrtr/flexpass.sh.git
 cd flexpass
 
 Make the hybrid launcher executable:
