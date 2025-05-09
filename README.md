@@ -5,7 +5,7 @@
 flexpass is a lightweight, customizable password generator written in both Bash and Python, designed for Linux command-line users who want control, speed, and portability.
 
 
-## Features
+# Features
 
 
 - Customizable password length
@@ -20,7 +20,7 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 - Secure randomness from system sources (`/dev/urandom` or `SystemRandom`)
 
 
-## Files
+# Files
 
 | File          | Language | Description                         |
 |---------------|----------|-------------------------------------|
@@ -28,7 +28,7 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 | `flexpass.py` | Python   | Python version with extra featu
 
 
-## Options
+# Options
 | Flag | Description                       |
 | ---- | --------------------------------- |
 | `-l` | Set password length (default: 12) |
@@ -41,7 +41,7 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 | `-f` | Save passwords to file            |
 
 
-## Requirements
+# Requirements
 
 python
 python 3.6+
@@ -55,15 +55,15 @@ or
 sudo pacman -S wl-clipboard
 
 
-## Installation
+# Installation
 
 Clone the GitHub repo:
 
 bash
-git clone https://github.com/flexpass-PASSgnrtr/flexpass.sh.git
-cd flexpass
+git clone https://github.com/E11SX/flexpass-PASSgnrtr.git
+cd flexpass.sh
 
-Make the hybrid launcher executable:
+Make the hybrid launcher executable:-
 
 bash
 chmod +x flexpass.sh
@@ -71,10 +71,10 @@ chmod +x flexpass.sh
 Symlink to a global bin directory:
 
 bash
-sudo ln -s "$(pwd)/flexpass.sh" /usr/local/bin/flexpass
+sudo ln -s "$(pwd)/flexpass.sh" /usr/local/bin/flexpass.sh
 
 
-## Example Output
+# Example
 
 $ ./flexpass.sh -l 20 -n 2 -a
 %gHjR*sez@MucD#tbKv(
