@@ -49,9 +49,7 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 
 ####  For python
 python 3.6+
-
-  + CategoryInfo          : ObjectNotFound: (pip:String) [], CommandNotFoundException
-  + FullyQualifiedErrorId : CommandNotFoundExceptio)
+   pyperclip
 
 ```
 pip install pyperclip
