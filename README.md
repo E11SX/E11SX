@@ -47,7 +47,7 @@ flexpass is a lightweight, customizable password generator written in both Bash 
 # Requirements
 
 
-#####  For python
+##### For python
 python 3.6+
 
   pyperclp
@@ -55,7 +55,7 @@ python 3.6+
 ```
 pip install pyperclip
 ```
-#####  For bash
+##### For bash
 ```
 sudo apt install xclip
 ```
